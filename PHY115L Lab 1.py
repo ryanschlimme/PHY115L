@@ -14,9 +14,9 @@ a = popt[0]
 b = popt[1]
 c = popt[2]
 print("The best fit parameters are")
-print("a =", a)
-print("b =", b)
-print("c =", c)
+print("a =", round(a, 3))
+print("b =", round(b, 3))
+print("c =", round(c, 3))
 
 xvalues = np.linspace(0, 1.2, 100)
 plt.figure(2)
@@ -28,9 +28,9 @@ plt.legend()
 plt.show()
 
 perr = np.sqrt(np.diag(pcov))
-delta_a = perr[0]
-delta_b = perr[1]
-delta_c = perr[2]
+delta_a = round(perr[0], 3)
+delta_b = round(perr[1], 3)
+delta_c = round(perr[2], 3)
 print("The error of parameter a is ", delta_a)
 print("The error of parameter b is ", delta_b)
 print("The error of parameter c is ", delta_c)
