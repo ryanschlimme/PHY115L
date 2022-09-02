@@ -34,7 +34,7 @@ def func(L, a):
 
 popt, pcov = curve_fit(func, length_list, frequency_list)
 a = round(popt[0], 2)
-print("The best fit parameters are")
+print("The best fit parameter is")
 print("a = ", a)
 
 xvalues = np.linspace(0.2, 1.8, 100)
