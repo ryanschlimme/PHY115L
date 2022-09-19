@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02b5c1b-616c-4da8-bd33-fd612b68c5fa" name="Changes" comment="Finished Prelab 3">
+    <list default="true" id="e02b5c1b-616c-4da8-bd33-fd612b68c5fa" name="Changes" comment="Renamed Prelab 3">
+      <change afterPath="$PROJECT_DIR$/PHY115L Lab 3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_8_22,_5_21_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_8_22__5_21_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PHY115L Lab 3.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,7 +51,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.PHY 115L Prelab 3">
+  <component name="RunManager" selected="Python.PHY115L Lab 3">
     <configuration name="PHY 115L Prelab 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PHY115L" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +118,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PHY115L Lab 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PHY115L" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PHY115L Lab 3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="PHY115L" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,8 +161,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PHY 115L Prelab 3" />
+        <item itemvalue="Python.PHY115L Lab 3" />
         <item itemvalue="Python.PHY115L Lab 2" />
+        <item itemvalue="Python.PHY 115L Prelab 3" />
         <item itemvalue="Python.PHY115L Lab 1" />
       </list>
     </recent_temporary>
@@ -154,6 +180,10 @@
       <workItem from="1662682409902" duration="149000" />
       <workItem from="1663000715808" duration="2513000" />
       <workItem from="1663003284753" duration="30000" />
+      <workItem from="1663003352485" duration="193000" />
+      <workItem from="1663355967561" duration="5000" />
+      <workItem from="1663356027960" duration="50000" />
+      <workItem from="1663536589370" duration="3433000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Lab 2">
       <created>1662682270381</created>
@@ -169,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663003242476</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Renamed Prelab 3">
+      <created>1663003369346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663003369346</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Renamed Prelab 3">
+      <created>1663003396876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663003396877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished Lab 2" />
     <MESSAGE value="Finished Prelab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Prelab 3" />
+    <MESSAGE value="Renamed Prelab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed Prelab 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PHY115L$PHY_115L_Prelab_3.coverage" NAME="PHY 115L Prelab 3 Coverage Results" MODIFIED="1663001240585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
