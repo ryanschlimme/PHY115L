@@ -122,7 +122,7 @@ def dphi(f, a, b, c):
 
 plt.figure(3, dpi = 300)
 plt.plot(f_data, phi, 'o', color = "black", markersize = 4, label = "data")
-plt.xlim(0, 600)
+plt.xlim(0, 100)
 plt.xlabel('$f$ (Hz)', fontsize = 14)
 plt.ylabel('$\Delta\phi$', fontsize = 14)
 plt.plot(fvalues, dphi(fvalues, a, b, c), color = 'black', linewidth = 1.2, label = "best-fit model")
