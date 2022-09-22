@@ -22,6 +22,7 @@ def div(w, y):
     Q = w / y
     return Q
 
+
 def sub(a, b):
     c = a - b
     return c
