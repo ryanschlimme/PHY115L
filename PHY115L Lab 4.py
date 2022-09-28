@@ -1132,6 +1132,11 @@ wplus = (1 / np.sqrt(2)) * np.sqrt(
 wminus = (1 / np.sqrt(2)) * np.sqrt(
     (k2 / m2) + (k1 + k2) / m1 - np.sqrt((k2 / m2 + (k1 + k2) / m1) ** 2 - 4*(k2 * (k1 + k2) - k2 ** 2) / (m1 * m2)))
 
+ratio_minus = round(-1 * (k2 / m2) / (wminus ** 2 - (k2 / m2)), 3)
+ratio_plus = round(-1 * (k2 / m2) / (wplus ** 2 - (k2 / m2)), 3)
+
 print()
 print("The theoretical angular frequencies of the coupled oscillator are", round(wplus, 3), "rad/s and",
       round(wminus, 3), "rad/s")
+print("The theoretical amplitude ratio A2/A1 for omega minus is", ratio_minus)
+print("The theoretical amplitude ratio A2/A1 for omega plus is", ratio_plus)
