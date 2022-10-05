@@ -1,7 +1,4 @@
 import numpy as np
-import statistics
-import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
 
 single_f = [
     0.15965939329430548,
