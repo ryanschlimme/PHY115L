@@ -62,10 +62,30 @@ print("The expected frequency for mode 6 is", round(frequencies(c, thickness, le
 predicted_frequencies = (67.912, 188.645, 369.744, 611.209)
 sound_results = (68.6, 115.1, 158.9, 213.9)
 
+
+def sqrt(x, a):
+    y = a * np.sqrt(x)
+    return y
+
+
+popt, pcov = curve_fit(sqrt, predicted_frequencies, sound_results)
+m = popt[0]
+perr = np.sqrt(np.diag(pcov))
+delta_m = perr[0]
+
+print()
+print("Functional Dependence of Sound Propagation vs Transverse Frequency")
+print("The best fit parameters are:")
+print("m =", round(m, 3))
+print("The error in m is", round(delta_m, 3))
+
+fvalues = np.linspace(0, 700, 1000)
 plt.figure(0, dpi=300)
 plt.plot(predicted_frequencies, sound_results, 'o', color="black", markersize=4, label="raw data")
-plt.xlim(0, 300)
-plt.ylim(0, 700)
+plt.plot(fvalues, sqrt(fvalues, m), color="black", linewidth=1.2, label="best-fit model")
+plt.legend()
+plt.xlim(0, 700)
+plt.ylim(0, 300)
 plt.xlabel('$f$ (Hz)', fontsize=14)
 plt.ylabel('Speed of Sound $m/s$', fontsize=14)
 plt.show()

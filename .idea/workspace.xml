@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02b5c1b-616c-4da8-bd33-fd612b68c5fa" name="Changes" comment="Corrected expected values">
-      <change afterPath="$PROJECT_DIR$/PHY115L Lab 5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PHY115L.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHY115L.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e02b5c1b-616c-4da8-bd33-fd612b68c5fa" name="Changes" comment="Started Lab 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHY115L Lab 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/PHY115L Lab 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHY115L Lab 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/PHY115L Lab 5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +210,8 @@
       <workItem from="1664406359292" duration="765000" />
       <workItem from="1664407564997" duration="365000" />
       <workItem from="1664408394599" duration="695000" />
-      <workItem from="1664972668736" duration="5650000" />
+      <workItem from="1664972668736" duration="5667000" />
+      <workItem from="1665012540743" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Lab 2">
       <created>1662682270381</created>
@@ -285,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664409085314</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Started Lab 5">
+      <created>1664978336237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664978336237</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +317,8 @@
     <MESSAGE value="Finished Lab 4" />
     <MESSAGE value="Corrected Coupled Oscillator Statistics" />
     <MESSAGE value="Corrected expected values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected expected values" />
+    <MESSAGE value="Started Lab 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Lab 5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PHY115L$PHY_115L_Prelab_3.coverage" NAME="PHY 115L Prelab 3 Coverage Results" MODIFIED="1663001240585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
