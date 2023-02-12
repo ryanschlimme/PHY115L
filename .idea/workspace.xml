@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e02b5c1b-616c-4da8-bd33-fd612b68c5fa" name="Changes" comment="Finished Lab 5">
-      <change afterPath="$PROJECT_DIR$/PHY115L Lab 6.py" afterDir="false" />
+    <list default="true" id="e02b5c1b-616c-4da8-bd33-fd612b68c5fa" name="Changes" comment="Started Lab 6, Updated Lab 5">
+      <change afterPath="$PROJECT_DIR$/PHY115L Lab 7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHY115L Lab 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/PHY115L Lab 5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +49,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.PHY115L Lab 6">
-    <configuration name="PHY115L Lab 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PHY115L" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PHY115L Lab 2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.PHY115L Lab 7">
     <configuration name="PHY115L Lab 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PHY115L" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +120,9 @@
       <module name="PHY115L" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -150,6 +130,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PHY115L Lab 6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PHY115L Lab 7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PHY115L" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PHY115L Lab 7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PHY115L Lab 7" />
         <item itemvalue="Python.PHY115L Lab 6" />
         <item itemvalue="Python.PHY115L Lab 5" />
         <item itemvalue="Python.PHY115L Lab 4" />
         <item itemvalue="Python.PHY115L Lab 3" />
-        <item itemvalue="Python.PHY115L Lab 2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +215,10 @@
       <workItem from="1664408394599" duration="695000" />
       <workItem from="1664972668736" duration="5667000" />
       <workItem from="1665012540743" duration="1288000" />
-      <workItem from="1665323267332" duration="3163000" />
+      <workItem from="1665323267332" duration="3211000" />
+      <workItem from="1666181595080" duration="3132000" />
+      <workItem from="1666633725160" duration="20000" />
+      <workItem from="1676240135958" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Lab 2">
       <created>1662682270381</created>
@@ -299,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665013966764</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Started Lab 6, Updated Lab 5">
+      <created>1665329000533</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665329000533</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +340,8 @@
     <MESSAGE value="Corrected expected values" />
     <MESSAGE value="Started Lab 5" />
     <MESSAGE value="Finished Lab 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab 5" />
+    <MESSAGE value="Started Lab 6, Updated Lab 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Lab 6, Updated Lab 5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PHY115L$PHY_115L_Prelab_3.coverage" NAME="PHY 115L Prelab 3 Coverage Results" MODIFIED="1663001240585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
